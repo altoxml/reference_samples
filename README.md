@@ -1,4 +1,6 @@
-reference_samples
+Reference samples of ALTO XML files
 =================
 
-Reference samples of ALTO XML files
+Nothing yet
+
+

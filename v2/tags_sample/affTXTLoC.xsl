@@ -17,7 +17,7 @@
       <xsl:text disable-output-escaping='yes'>&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;</xsl:text>
       <head>
          <xsl:text disable-output-escaping='yes'>&lt;meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"/&gt;</xsl:text>      
-       <xsl:text disable-output-escaping='yes'>&lt;link rel="stylesheet" href="https://raw.github.com/altoxml/reference_samples/master/v2/tags_sample/CSS/stylesheet.css" type="text/css"/&gt;</xsl:text>
+         <xsl:text disable-output-escaping='yes'>&lt;link rel="stylesheet" href="CSS\stylesheet.css" type="text/css"/&gt;</xsl:text>
          
          <title>Affichage des contenus ALTO selon le taux de confiance</title> 
    </head>

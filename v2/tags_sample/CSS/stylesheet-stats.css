@@ -1,0 +1,227 @@
+@namespace h "http://www.w3.org/1999/xhtml";
+
+
+
+/*--------------------------- */
+
+body{
+    font-family : serif;
+    line-height: 1.3em;
+    margin-left : 4%;
+    margin-right : 4%; 
+}
+
+
+  
+  
+/*------------- Liens ------------- */
+a {
+	text-decoration : none;
+	color: navy     
+}
+a:hover {
+	text-decoration : underline;
+}
+
+
+    
+   
+
+/*------------------------------- */
+
+/*------------ Textes */    
+
+p.comment {
+    font-family : sans-serif;
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 0;
+    margin-top: 1em;
+   color: rgb(100,100,100);
+    /*page-break-before: always*/
+    }
+
+p.TextBlock {
+    font-family : serif;
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 0;
+    margin-top: 1em;
+    /*page-break-before: always*/
+    }
+
+
+/*------------ titre de niveau 1 */
+h1 {
+  font-family : sans-serif;
+  font-weight:normal;
+  text-align: center; 
+  font-size : 120%;
+  line-height: 1.5em;
+  margin-bottom : 2em;
+  margin-top : 1em;
+  page-break-before:always
+}
+
+/*------------ titre de niveau 2 */
+h2 {
+  font-family :  sans-serif;
+  font-weight: normal; 
+  color:#003864; 
+  border-bottom : solid 2px #E6EAF5;
+  font-size : 110%;
+  line-height: 1.5em;
+  width : 80%;
+  margin-bottom : 1em;
+  margin-top : 1em;
+  /* text-align: center; */
+}
+
+.partie {
+    text-align: center; 
+    width : 100%;
+    border-bottom : none;
+    page-break-after:always
+}
+
+/*------------ titre de niveau 3 */
+h3 {
+    font-family : FSansBold, sans-serif;
+    font-weight: normal;
+    /* border-bottom: solid 2px #E6EAF5; */
+  
+    color:#003864;
+    display: block;
+    font-size: 1em;
+  
+    /* font-variant: small-caps; */
+   
+    margin-right: 0;
+    /* text-align: center; */
+    }
+    
+/*------------ titre de niveau 4 */
+h4 {
+    font-family : sans-serif;
+    font-weight:normal;
+    display: block;
+    font-size: 1em;
+    margin-bottom: 0.2em;
+    margin-top: 0em;
+     color:#003864;
+    }
+ 
+/*------------ titre de niveau 5 */
+h5 {
+    font-family : FSerifBo, serif;
+    font-weight:normal;
+    display: block;
+    font-size: 1.1em;
+    margin-top: 1.2em; 
+    margin-bottom: 0em;
+    }
+
+/*------------ texte */
+
+
+/* mots C */
+.C {
+background-color: rgb(255,102,102);
+font-weight: normal;
+border: solid 1px silver;
+padding: 0 2pt;
+
+}
+
+/* mots Illegible */
+.illegible {
+background-color: rgb(176,0,0);
+border-bottom : solid 2px #E6EAF5;
+color: rgb(256,256,256);
+font-weight: normal;
+border: solid 1px silver;
+padding: 0 2pt;
+
+}
+
+/* mots B */
+.B {
+background-color: rgb(255, 255, 204);
+
+font-weight: normal;
+border: solid 1px silver;
+padding: 0 2pt;
+}
+
+/* alerte */
+.alerte {
+  color: rgb(256,0,0)
+}
+
+/* Notes de bdp */
+li {
+    margin-top: 0.5em
+   }
+   
+.nbp {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+   }
+   
+.nbpHaut {
+    border-top : solid 1px #E6EAF5;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    margin-right: 5em
+            }
+            
+/* Typo */
+.petit {
+ /*font-variant: small-caps; 
+  text-transform: uppercase;*/
+  font-size: 70%;
+  padding-left: 2em
+}
+
+.tb {
+ /*font-variant: small-caps; 
+  text-transform: uppercase;*/
+  font-size: 80%;
+padding: 1px;
+ background-color: rgb(105, 105, 105 );
+color: white
+}
+
+.st {
+ /*font-variant: small-caps; 
+  text-transform: uppercase;*/
+  font-size: 80%;
+padding: 1px;
+ background-color: rgb(220, 220, 220  );
+color: white
+}
+
+.ss {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal}
+
+.rm {
+  font-style:normal;font-weight:normal;color:black;
+  text-transform:none
+}
+
+span.sup {
+  font-size:0.7em;
+  vertical-align:30%;
+  line-height : 130%
+}
+      
+
+
+
+
+
+
+

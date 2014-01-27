@@ -39,30 +39,30 @@
 		<TextStyle ID="ID28" FONTSIZE="21.0"/>
 	</Styles>
 	<Tags>
-		<Structure ID="Tag0" LABEL="NewspaperTitle"/>
-		<Structure ID="Tag1" LABEL="Article"/>
-		<Structure ID="Tag2" LABEL="ArticleTile"/>
-		<Structure ID="Tag3" LABEL="ArticleSubTile"/>
+		<StructureTag ID="Tag0" LABEL="NewspaperTitle"/>
+		<StructureTag ID="Tag1" LABEL="Article"/>
+		<StructureTag ID="Tag2" LABEL="ArticleTile"/>
+		<StructureTag ID="Tag3" LABEL="ArticleSubTile"/>
 
-		<NE ID="Tag5" TYPE="Person" LABEL="Dr Reynolds"/>
-		<NE ID="Tag6" TYPE="Person" LABEL="Mr Xorris"/>
-		<NE ID="Tag7" TYPE="Person" LABEL="James M Bigstaff "/>
-		<NE ID="Tag8" TYPE="Person" LABEL="J T Highland"/>
-		<NE ID="Tag9" TYPE="Person" LABEL="Henry C Hall"/>
-		<NE ID="Tag10" TYPE="Location" LABEL="Baltimore"/>
-		<NE ID="Tag11" TYPE="Person" LABEL="Mr W B Greene"/>
-		<NE ID="Tag12" TYPE="Person" LABEL="Ben F Mark"/>
-		<NE ID="Tag13" TYPE="Location" LABEL="Lexington"/>
-		<NE ID="Tag14" TYPE="Organization" LABEL="Central Kentucky Tobacco Warehouse Company"/>
-		<NE ID="Tag15" TYPE="Location" LABEL="Louisville"/>
-		<NE ID="Tag16" TYPE="Location" LABEL="Kentucky"/>
+		<NamedEntityTag ID="Tag5" TYPE="Person" LABEL="Dr Reynolds"/>
+		<NamedEntityTag ID="Tag6" TYPE="Person" LABEL="Mr Xorris"/>
+		<NamedEntityTag ID="Tag7" TYPE="Person" LABEL="James M Bigstaff "/>
+		<NamedEntityTag ID="Tag8" TYPE="Person" LABEL="J T Highland"/>
+		<NamedEntityTag ID="Tag9" TYPE="Person" LABEL="Henry C Hall"/>
+		<NamedEntityTag ID="Tag10" TYPE="Location" LABEL="Baltimore"/>
+		<NamedEntityTag ID="Tag11" TYPE="Person" LABEL="Mr W B Greene"/>
+		<NamedEntityTag ID="Tag12" TYPE="Person" LABEL="Ben F Mark"/>
+		<NamedEntityTag ID="Tag13" TYPE="Location" LABEL="Lexington"/>
+		<NamedEntityTag ID="Tag14" TYPE="Organization" LABEL="Central Kentucky Tobacco Warehouse Company"/>
+		<NamedEntityTag ID="Tag15" TYPE="Location" LABEL="Louisville"/>
+		<NamedEntityTag ID="Tag16" TYPE="Location" LABEL="Kentucky"/>
 
-		<Layout ID="Tag100" LABEL="Advertisement"/>
-		<Layout ID="Tag101" LABEL="Weather"/>
-		<Layout ID="Tag102" LABEL="Obituary"/>
-		<Layout ID="Tag103" LABEL="Masterhead"/>
+		<LayoutTag ID="Tag100" LABEL="Advertisement"/>
+		<LayoutTag ID="Tag101" LABEL="Weather"/>
+		<LayoutTag ID="Tag102" LABEL="Obituary"/>
+		<LayoutTag ID="Tag103" LABEL="Masterhead"/>
 
-		<Other ID="Tag200" LABEL="Price"/>
+		<OtherTag ID="Tag200" LABEL="Price"/>
 
 	</Tags>
 	<Layout>

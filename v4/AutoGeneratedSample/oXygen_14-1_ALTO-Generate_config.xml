@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <schemaSystemId>file:/D:/GitHub/altoxml/schema/v4/alto-4-0-draft.xsd</schemaSystemId>
+    <documentRoot>alto</documentRoot>
+    <outputFolder>D:\GitHub\altoxml\schema\v4</outputFolder>
+    <filenamePrefix>instance</filenamePrefix>
+    <filenameExtension>xml</filenameExtension>
+    <noOfInstances>2</noOfInstances>
+    <openFirstInstance>true</openFirstInstance>
+    <defaultNamespace>http://www.loc.gov/standards/alto/ns-v4#</defaultNamespace>
+    <valuesMaxLength>30</valuesMaxLength>
+    <isUseIncrementalNamesForValues>true</isUseIncrementalNamesForValues>
+    <discardOptionalElementsAfterNestedLevel>100</discardOptionalElementsAfterNestedLevel>
+    <namespaceMapping ns="http://www.loc.gov/standards/alto/ns-v4#" proxy="ns0"/>
+    <namespaceMapping ns="http://www.w3.org/1999/xlink" proxy="xlink"/>
+    <element namespace="&lt;ANY>" name="&lt;ANY>">
+        <generateOptionalElements>true</generateOptionalElements>
+        <generateOptionalAttributes>true</generateOptionalAttributes>
+        <valuesForContentType>DEFAULT</valuesForContentType>
+        <preferredNumberOfRepetitions>2</preferredNumberOfRepetitions>
+        <maximumRecursivityLevel>1</maximumRecursivityLevel>
+        <choicesAndSubstitutions strategy="RANDOM" generateOthersAsComments="false"/>
+        <attribute namespace="&lt;ANY>" name="&lt;ANY>">
+        </attribute>
+    </element>
+</settings>
